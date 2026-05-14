@@ -320,3 +320,12 @@ Planned improvements include:
 TitanRAG demonstrates my ability to design and build applied AI infrastructure using modern cloud-native components. It combines retrieval engineering, vector databases, LLM orchestration, serverless APIs, and user-facing product design.
 
 The project is relevant to production AI use cases where organizations need reliable document intelligence systems that are grounded in private knowledge sources.
+
+---
+## Deployment Status
+
+TitanRAG was originally implemented as a cloud-native RAG system using AWS managed services, including S3, Lambda, API Gateway, Aurora PostgreSQL with pgvector, Bedrock Titan embeddings, and Streamlit.
+
+The live AWS resources were later decommissioned to avoid ongoing infrastructure costs. This repository preserves the system architecture, implementation code, database schema, environment configuration template, documentation, and demo result screenshot.
+
+The project can be redeployed by provisioning the AWS services described in the architecture and configuring the required environment variables in `.env.example`.
